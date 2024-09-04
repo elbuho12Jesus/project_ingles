@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.20)
+set(PROJECT load)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+project(${PROJECT})
+add_subdirectory(lib/english)
+add_executable(main ${PROJECT}.cpp)
+target_link_libraries(main english_lib)
