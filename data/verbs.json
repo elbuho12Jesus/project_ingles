@@ -1,15 +1,230 @@
 {
- "verbs":
- [ 
-   {
-    "normal": "be",
-    "pass_simple": "was",
-    "pass_participle": "been"
-    },
-    {
-    "normal": "have",
-    "pass_simple": "had",
-    "pass_participle": "had"
-    }
- ]
+    "verbs":
+	 [ 
+	   {
+	    "normal": "be",
+	    "past_simple": "was",
+	    "past_participle": "been"
+	    },
+	    {
+	    "normal": "beat",
+	    "past_simple": "beat",
+	    "past_participle": "beaten"
+	    },
+	    {
+	    "normal": "become",
+	    "past_simple": "became",
+	    "past_participle": "become"
+	    },
+	    {
+	    "normal": "begin",
+	    "past_simple": "began",
+	    "past_participle": "begun"
+	    },
+	    {
+	    "normal": "bend",
+	    "past_simple": "bent",
+	    "past_participle": "bent"
+	    },
+	    {
+	    "normal": "bet",
+	    "past_simple": "bet",
+	    "past_participle": "bet"
+	    },
+	    {
+	    "normal": "bite",
+	    "past_simple": "bit",
+	    "past_participle": "bitten"
+	    },
+	    {
+	    "normal": "bleed",
+	    "past_simple": "bled",
+	    "past_participle": "bled"
+	    },
+	    {
+	    "normal": "blow",
+	    "past_simple": "blew",
+	    "past_participle": "blown"
+	    },
+	    {
+	    "normal": "break",
+	    "past_simple": "broke",
+	    "past_participle": "broken"
+	    },
+	    {
+	    "normal": "bring",
+	    "past_simple": "brought",
+	    "past_participle": "brought"
+	    },
+	    {
+	    "normal": "broadcast",
+	    "past_simple": "broadcast",
+	    "past_participle": "broadcast"
+	    },
+	    {
+	    "normal": "build",
+	    "past_simple": "built",
+	    "past_participle": "built"
+	    },
+	    {
+	    "normal": "burn",
+	    "past_simple": "burned",
+	    "past_participle": "burned"
+	    },
+	    {
+	    "normal": "burst",
+	    "past_simple": "burst",
+	    "past_participle": "burst"
+	    },
+	    {
+	    "normal": "buy",
+	    "past_simple": "bought",
+	    "past_participle": "bought"
+	    },
+	    {
+	    "normal": "catch",
+	    "past_simple": "caught",
+	    "past_participle": "caught"
+	    },
+	    {
+	    "normal": "choose",
+	    "past_simple": "chose",
+	    "past_participle": "chosen"
+	    },
+	    {
+	    "normal": "come",
+	    "past_simple": "came",
+	    "past_participle": "come"
+	    },
+	    {
+	    "normal": "cost",
+	    "past_simple": "cost",
+	    "past_participle": "cost"
+	    },
+	    {
+	    "normal": "cut",
+	    "past_simple": "cut",
+	    "past_participle": "cut"
+	    },
+	    {
+	    "normal": "deal",
+	    "past_simple": "dealt",
+	    "past_participle": "dealt"
+	    },
+	    {
+	    "normal": "dig",
+	    "past_simple": "dug",
+	    "past_participle": "dug"
+	    },
+	    {
+	    "normal": "do",
+	    "past_simple": "did",
+	    "past_participle": "done"
+	    },
+	    {
+	    "normal": "draw",
+	    "past_simple": "drew",
+	    "past_participle": "drawn"
+	    },
+	    {
+	    "normal": "dream",
+	    "past_simple": "dreamed",
+	    "past_participle": "dreamed"
+	    },
+	    {
+	    "normal": "drink",
+	    "past_simple": "drank",
+	    "past_participle": "drunk"
+	    },
+	    {
+	    "normal": "drive",
+	    "past_simple": "drove",
+	    "past_participle": "driven"
+	    },
+	    {
+	    "normal": "eat",
+	    "past_simple": "ate",
+	    "past_participle": "eaten"
+	    },
+	    {
+	    "normal": "fall",
+	    "past_simple": "fell",
+	    "past_participle": "fallen"
+	    },
+	    {
+	    "normal": "feel",
+	    "past_simple": "felt",
+	    "past_participle": "felt"
+	    },
+	    {
+	    "normal": "feed",
+	    "past_simple": "fed",
+	    "past_participle": "fed"
+	    },
+	    {
+	    "normal": "fight",
+	    "past_simple": "fought",
+	    "past_participle": "fought"
+	    },
+	    {
+	    "normal": "find",
+	    "past_simple": "found",
+	    "past_participle": "found"
+	    },
+	    {
+	    "normal": "fly",
+	    "past_simple": "flew",
+	    "past_participle": "flown"
+	    },
+	    {
+	    "normal": "forbid",
+	    "past_simple": "forbade",
+	    "past_participle": "forbidden"
+	    },
+	    {
+	    "normal": "forget",
+	    "past_simple": "forgot",
+	    "past_participle": "forgotten"
+	    },
+	    {
+	    "normal": "forgive",
+	    "past_simple": "forgave",
+	    "past_participle": "forgiven"
+	    },
+	    {
+	    "normal": "freeze",
+	    "past_simple": "froze",
+	    "past_participle": "frozen"
+	    },
+	    {
+	    "normal": "get",
+	    "past_simple": "got",
+	    "past_participle": "got"
+	    },
+	    {
+	    "normal": "give",
+	    "past_simple": "gave",
+	    "past_participle": "given"
+	    },
+	    {
+	    "normal": "go",
+	    "past_simple": "went",
+	    "past_participle": "gone"
+	    },
+	    {
+	    "normal": "grow",
+	    "past_simple": "grew",
+	    "past_participle": "grown"
+	    },
+	    {
+	    "normal": "hang",
+	    "past_simple": "hung",
+	    "past_participle": "hung"
+	    },
+	    {
+	    "normal": "have",
+	    "past_simple": "had",
+	    "past_participle": "had"
+	    }
+	 ]
 }
