@@ -72,12 +72,14 @@ std::string english_verbs::convertToLowercase(const std::string& str)
         result += std::tolower(ch);
     }
 
-    return result;
+  return result;
 }
 
 bool english_verbs::validate(std::string &s,std::string verb)
 {
 	if(verb!=convertToLowercase(s))
-		return false;
+  {
+    return false;
+  }
   return true;
 }
