@@ -2,6 +2,8 @@
 #include "english_verbs.h"
 #include "rapidjson/filereadstream.h"
 #include "rapidjson/document.h"
+#include <cctype>
+#include <cstdlib>
 
 
 english_verbs::english_verbs()
@@ -50,7 +52,10 @@ english_verbs::english_verbs()
     fclose(fp);
 }
 english_verbs::~english_verbs()
-{}
+{
+  std::cout << "score Past Simple: "<< score_past_simple <<std::endl;
+  std::cout << "score Past Participle: "<< score_past_participle <<std::endl;
+}
 void english_verbs::past_simple_exercise()
 {
 	std::cout << "You should write the past simple of the verbs:" << std::endl;
@@ -59,10 +64,41 @@ void english_verbs::past_simple_exercise()
 		std::cout << verb.normal << std::endl;
 		std::string s;
 		std::cin >> s;
-		if(validate(s,verb.past_simple)) {std::cout << "Good!" << std::endl;}
-		else {std::cout << "wrong!" << std::endl;}
+    std::remove_if(s.begin(),s.end(),isspace);
+		if(validate(s,verb.past_simple)) 
+      {
+        score_past_simple++;
+      std::cout << BEGIN_GREEN <<"Good!" << END << std::endl;
+      }
+		else 
+    {
+      std::cout << BEGIN_RED <<"wrong!" << END << BEGIN_YELLOW << " correct option: " << verb.past_simple << END << std::endl;
+    }
 	}
 }
+
+void english_verbs::past_participle_exercise()
+{
+  std::cout << "You should write the past participle of the verbs:" << std::endl;
+	for(const Verb &verb:data)
+	{
+		std::cout << verb.normal << std::endl;
+		std::string s;
+		std::cin >> s;
+    std::remove_if(s.begin(),s.end(),isspace);
+		if(validate(s,verb.past_participle)) 
+      {
+        score_past_participle++;
+        std::cout << BEGIN_GREEN <<"Good!" << END << std::endl;
+      }
+		else 
+      { 
+        std::cout << BEGIN_RED <<"wrong!" << END << BEGIN_YELLOW << " correct option: " << verb.past_participle << END << std::endl; 
+      }
+	}
+
+}
+
 std::string english_verbs::convertToLowercase(const std::string& str)
 {
 	std::string result = "";
