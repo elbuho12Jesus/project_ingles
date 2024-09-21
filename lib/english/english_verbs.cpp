@@ -1,7 +1,7 @@
 #pragma once
 #include "english_verbs.h"
-#include "rapidjson/filereadstream.h"
-#include "rapidjson/document.h"
+#include "../../include/rapidjson/filereadstream.h"
+#include "../../include/rapidjson/document.h"
 #include <cctype>
 #include <cstdlib>
 
